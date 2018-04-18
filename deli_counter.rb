@@ -21,7 +21,7 @@ def take_a_number(current, new)
     end
 end
 
-def now_serving(current, new)
+def now_serving(current)
   if current.length == 0
     puts "There is nobody waiting to be served!"
 else current.length > 1
