@@ -18,5 +18,14 @@ def take_a_number(current, new)
     current.length > 1
       current.push(new)
         puts "Welcome, #{new}. You are number #{current.length} in line."
+    end
 end
+
+def now_serving(current, new)
+  if current.length == 0
+    puts "There is nobody waiting to be served!"
+else current.length > 1
+      current.shift
+        puts "Currently serving #{new}."
+    end
 end
