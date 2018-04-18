@@ -24,8 +24,8 @@ end
 def now_serving(current)
   if current.length == 0
     puts "There is nobody waiting to be served!"
-else current.length > 1
+  else current.length > 1
       current.shift
-        puts "Currently serving #{current.push}."
+        puts "Currently serving #{current.shift}."
     end
 end
