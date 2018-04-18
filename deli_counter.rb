@@ -26,6 +26,6 @@ def now_serving(current)
     puts "There is nobody waiting to be served!"
   else current.length > 1
       current.shift
-        puts "Currently serving #{current.shift}."
+        puts "Currently serving #{current.unshift}."
     end
 end
