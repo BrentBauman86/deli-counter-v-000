@@ -11,6 +11,8 @@ else
 end
 
 def take_a_number(current, new)
-  current.unshift("Ada")
-    puts "Welcome, #{new}. You are number 1 in line."
+  if current.length == 0
+      current.unshift("Ada") puts "Welcome, #{new}. You are number 1 in line."
+  else
+    current
 end
