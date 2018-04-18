@@ -16,7 +16,7 @@ def take_a_number(current, new)
         puts "Welcome, #{new}. You are number #{current.length} in line."
   else
     current.length > 1
-      current.push("Grace")
+      current.push("Kent")
         puts "Welcome, #{new}. You are number #{current.length} in line."
 end
 end
