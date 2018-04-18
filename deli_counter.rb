@@ -12,11 +12,11 @@ end
 
 def take_a_number(current, new)
   if current.length == 0
-      current.unshift("Ada")
+      current.unshift(new)
         puts "Welcome, #{new}. You are number #{current.length} in line."
   else
     current.length > 1
-      current.push("Kent")
+      current.push(new)
         puts "Welcome, #{new}. You are number #{current.length} in line."
 end
 end
