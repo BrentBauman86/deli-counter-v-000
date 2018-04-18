@@ -16,7 +16,7 @@ def take_a_number(current, new)
         puts "Welcome, #{new}. You are number 1 in line."
   else
     current.length > 1
-      current.each {|list| } puts "Welcome, #{new}. You are number 4 in line."
+      current.each {|list| } puts list "Welcome, #{new}. You are number 4 in line."
 
 end
 end
